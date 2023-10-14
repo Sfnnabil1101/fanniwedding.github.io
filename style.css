@@ -60,11 +60,12 @@ body {
 
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.2) !important;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2.5px);
 }
 
 .mynavbar .offcanvas {
   height: 100vh;
+  width: 50%;
 }
 
 .mynavbar .navbar-brand,
@@ -485,24 +486,12 @@ footer li {
     padding: 35px;
     margin: 3px;
   }
-  .mynavbar .offcanvas {
-    padding-right: 0px;
-  }
-  .mynavbar .nav-link {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .sticky-top {
-    overflow: hidden;
-  }
-
   .timeline li .timeline-image {
     width: 100px;
     height: 100px;
   }
   .timeline li .timeline-panel {
-    width: 65%;
+    width: 60%;
     transform: translateX(-5px);
   }
 
