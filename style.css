@@ -485,6 +485,17 @@ footer li {
     padding: 35px;
     margin: 3px;
   }
+  .mynavbar .offcanvas {
+    padding-right: 0px;
+  }
+  .mynavbar .nav-link {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
+  }
 
   .timeline li .timeline-image {
     width: 100px;
@@ -492,7 +503,7 @@ footer li {
   }
   .timeline li .timeline-panel {
     width: 65%;
-    transform: translateX(-20px);
+    transform: translateX(-5px);
   }
 
   .timeline li .timeline-panel::before {
