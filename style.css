@@ -80,13 +80,13 @@ body {
 }
 
 .home {
-  background-image: url(img/bg.png);
+  background-image: url(img/bg3.png);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 8rem;
-  padding-bottom: 20rem;
+  padding-bottom: 18rem;
 }
 
 .home h2,
@@ -105,6 +105,12 @@ body {
   color: #444;
   font-size: 1.2rem;
   margin-bottom: 0.8rem;
+}
+.home h4 {
+  color: #444;
+  font-size: 1.4rem;
+  margin-top: 10rem;
+  margin-bottom: 0.5rem;
 }
 
 .home p {
@@ -142,7 +148,12 @@ body {
   margin: auto;
   color: var(--pink);
 }
-
+.ayat {
+  background-color: var(--bg);
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
 .info {
   background-color: var(--bg);
   color: white;
@@ -341,9 +352,19 @@ body {
   color: var(--pink);
   border: 1px solid white;
 }
+.rsvp a {
+  background-color: white;
+  color: var(--pink);
+  border: 1px solid white;
+}
+.rsvp a:hover {
+  background-color: var(--pink);
+  color: white;
+  border: 1px solid var(--pink);
+}
 
 footer {
-  padding: 3rem;
+  padding: 1rem;
   background-color: var(--pink);
   color: white;
 }
@@ -389,6 +410,41 @@ footer li {
   to {
     transform: rotate(360deg);
   }
+}
+
+.copyfield {
+  align-items: center;
+}
+
+#link {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+}
+#copy-btn {
+  background-color: rgb(109, 94, 241);
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.copyfield2 {
+  align-items: center;
+}
+
+#link2 {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+}
+#copy-btn2 {
+  background-color: rgb(109, 94, 241);
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Media */
